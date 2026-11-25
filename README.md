@@ -16,3 +16,5 @@ Para subir o frontend em outro terminal:
 esteja dentro da pasta frontend dentro de escola (cd escola e depois cd frontend);
 npm install (pra carregar as dependências do vite);
 npm run dev
+
+https://github.com/UmcaradaUMC/album.git
