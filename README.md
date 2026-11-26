@@ -1,20 +1,16 @@
-Nomes dos integrantes:
-Kaic Brandão De Oliveira/ RGM 11261105353
-Felipe Ribeiro/ RGM 11261104953
-Luís Henrique Aguiar Santos/ RGM 11264404110
-José Danilo da Silva Neto/ RGM 11261105206
+# React + Vite
 
-Para subir o backend em um terminal:
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-esteja dentro da pasta escola (cd escola);
-pip install django django-cors-headers (caso dê erro no windows, utilize py -m antes do comando);
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
+Currently, two official plugins are available:
 
-Para subir o frontend em outro terminal:
-esteja dentro da pasta frontend dentro de escola (cd escola e depois cd frontend);
-npm install (pra carregar as dependências do vite);
-npm run dev
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-https://github.com/UmcaradaUMC/album.git
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the Oxlint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
